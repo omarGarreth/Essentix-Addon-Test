@@ -1,0 +1,25 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Essentix Behavior",
+    "description": "SikinnSMP Essentix Behavior Pack",
+    "uuid": "e7b2c8a2-4f3a-4e6a-9b1e-2c8f7d1a5b3c",
+    "version": [1, 0, 1],
+    "min_engine_version": [1, 20, 50]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "a1c7e3b4-2d8f-4c6b-8e9a-7f2b1d4c3e5f",
+      "entry": "scripts/teleport_commands.js",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "c3f8a1d2-5b7e-4c9a-8f2d-1e6b3a4c7d8e",
+      "version": [1, 0, 0]
+    }
+  ]
+}
